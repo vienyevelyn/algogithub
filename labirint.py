@@ -4,8 +4,6 @@ window = display.set_mode((700, 500)) #lebar, tinggi
 back = (119, 210, 223) #rgb
 display.set_caption("Maze")
 
-#this is a comment
-
 class character(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, size_x, size_y):
         sprite.Sprite.__init__(self)
