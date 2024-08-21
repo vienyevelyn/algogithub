@@ -1,5 +1,5 @@
 from pygame import *
-
+Saya bisa ms( Bagus)
 window = display.set_mode((700, 500)) #lebar, tinggi
 back = (119, 210, 223) #rgb
 display.set_caption("Maze")
